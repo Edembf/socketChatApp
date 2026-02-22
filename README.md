@@ -19,13 +19,26 @@ SocketChatApp is a JavaScript-based real-time chat application built using Socke
 
 2. **Install dependencies**:
    Ensure you have Node.js installed, then run:
+    or for the required packages listined secundo:
+    or the required commands to create the app and his needs listined tierco:
    ```bash
    npm install
+  
+   npm install express cors http socket.io nodemon   
+  
+   npx create-expo-app socketChatApp --template blank
+   npx expo install socket.io-client @react-navigation/native @react-navigation/stack
+   npx expo install react-native-web react-dom @expo/metro-runtime
+   
+   
+   
    ```
 
-3. **Run the application**:
+4. **Run the application**:
+5. 
    ```bash
-   npm start
+   npm start   
+   npm run web 
    ```
    Navigate to `http://localhost:3000` in your browser to access the chat application.
 
